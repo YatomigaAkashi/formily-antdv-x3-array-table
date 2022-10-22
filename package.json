@@ -1,0 +1,28 @@
+{
+  "name": "formily-antdv-x3-array-table",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview --port 4173",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@formily/antdv-x3": "^1.0.0-alpha.5",
+    "@formily/core": "^2.2.9",
+    "@formily/vue": "^2.2.9",
+    "ant-design-vue": "^3.2.13",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.56",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/tsconfig": "^0.1.3",
+    "unplugin-vue-components": "^0.22.8",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.9",
+    "vue-tsc": "^0.40.7"
+  }
+}
